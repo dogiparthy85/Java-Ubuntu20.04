@@ -1,6 +1,9 @@
-Oracle has released Java 15 a couple of days ago. Those wanting to install this in Ubuntu, Debian, and Linux distributions based on these, like Pop!_OS, Linux Mint, Zorin OS, etc., can use the Linux Uprising Java PPA.
+Oracle has released Java 15 a couple of days ago. Those wanting to install this in Ubuntu, Debian, and Linux distributions based on these, like Pop!_OS, Linux Mint, Zorin OS, etc., 
+can use the Linux Uprising Java PPA.
 
-This Oracle Java 15 installer is based on the Web Upd8 Java package (so the credits go to its original creators), with minor modifications, and it does not contain any Oracle Java binaries. Instead, it automatically downloads, installs and optionally sets Oracle Java 15 as the default Java (runs update-alternatives, exports the JAVA_HOME environment variable, etc.) on your system. 
+This Oracle Java 15 installer is based on the Web Upd8 Java package (so the credits go to its original creators), with minor modifications, and it does not contain any 
+Oracle Java binaries. Instead, it automatically downloads, installs and optionally sets Oracle Java 15 as the default Java (runs update-alternatives, 
+exports the JAVA_HOME environment variable, etc.) on your system. 
 
 For Oracle Java 15, there are available x64 and aarch64 Linux builds. Oracle stopped providing ARM builds for quite a few releases, until this latest Oracle Java 15. 
 
@@ -8,11 +11,15 @@ This is the first time since I've taken over this package that Oracle releases A
 
 Install Oracle Java 15 on Ubuntu, Debian, Linux Mint, Pop!_OS, Zorin OS and others using an APT PPA repository
 
-The package from this PPA downloads and installs Oracle Java 15 for you (with applications menu / 'open with' entries). If you choose to make this Java version default (by installing the oracle-java15-set-default package), the package updates the alternatives to set all Java binaries from this package as default, and exports the JAVA_HOME environment variable for this Java version (requires a logout/relogin to take effect). 
+The package from this PPA downloads and installs Oracle Java 15 for you (with applications menu / 'open with' entries). 
+If you choose to make this Java version default (by installing the oracle-java15-set-default package), the package updates the alternatives to set all Java binaries 
+from this package as default, and exports the JAVA_HOME environment variable for this Java version (requires a logout/relogin to take effect). 
 
-Oracle offers its own DEB packages for download, but they only copy the Oracle Java 15 files to your system, and nothing more. It doesn't allow setting it as the default Java, doesn't set the JAVA_HOME environment variable, it doesn't create menu entries, etc. 
+Oracle offers its own DEB packages for download, but they only copy the Oracle Java 15 files to your system, and nothing more. It doesn't allow setting it as the default Java,
+doesn't set the JAVA_HOME environment variable, it doesn't create menu entries, etc. 
 
-Ubuntu, Linux Mint, Pop!_OS and other Linux distributions based on Ubuntu: open a terminal and use the commands below to add the Linux Uprising Oracle Java PPA and install Oracle Java 15 (Oracle JDK 15) for x64 / aarch64 only:
+Ubuntu, Linux Mint, Pop!_OS and other Linux distributions based on Ubuntu: open a terminal and use the commands below to add the Linux Uprising Oracle Java PPA and 
+install Oracle Java 15 (Oracle JDK 15) for x64 / aarch64 only:
 
 sudo add-apt-repository ppa:linuxuprising/java
 sudo apt update
