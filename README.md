@@ -94,7 +94,7 @@ OpenJDK 64-Bit Server VM (build <span class="highlight">11.0.8+10</span>-post-Ub
 
 <p>Click the <strong>JDK Download</strong> button and you’ll be taken to a screen that shows the versions available.  Click the <code>.tar.gz</code> package for Linux.</p>
 
-<p class="growable"><img src="https://raw.githubusercontent.com/dogiparthy85/Java-Ubuntu20.04/main/sy01gSy%5B1%5D.png" alt="Linux download"></p>
+<p class="growable"><img src="https://github.com/dogiparthy85/Java-Ubuntu20.04/blob/main/JDK.png" alt="Linux download"></p>
 
 <p>You’ll be presented with a screen asking you to accept the Oracle license agreement. Select the checkbox to accept the license agreement and press the <strong>Download</strong> button. Your download will begin. You may need to log in to your Oracle account one more time before the download starts.</p>
 
