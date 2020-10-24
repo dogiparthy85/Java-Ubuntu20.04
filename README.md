@@ -55,9 +55,9 @@ sudo apt install openjdk-8-jre-headless   # version 8u252-b09-1ubuntu1
 
 <p>You’ll see the following output:</p>
 
-<pre class="code-pre "><code><div class="secondary-code-label " title="Output">Output</div>openjdk version "<span class="highlight">11.0.7</span>" 2020-04-14
-OpenJDK Runtime Environment (build <span class="highlight">11.0.7+10</span>-post-Ubuntu-3ubuntu1)
-OpenJDK 64-Bit Server VM (build <span class="highlight">11.0.7+10</span>-post-Ubuntu-3ubuntu1, mixed mode, sharing)
+<pre class="code-pre "><code><div class="secondary-code-label " title="Output">Output</div>openjdk version "<span class="highlight">11.0.8</span>" 2020-07-14
+OpenJDK Runtime Environment (build <span class="highlight">11.0.8+10</span>-post-Ubuntu-3ubuntu1)
+OpenJDK 64-Bit Server VM (build <span class="highlight">11.0.8+10</span>-post-Ubuntu-3ubuntu1, mixed mode, sharing)
 </code></pre>
 
 <p>You may need the Java Development Kit (JDK) in addition to the JRE in order to compile and run some specific Java-based software. To install the JDK, execute the following command, which will also install the JRE:</p>
@@ -71,7 +71,7 @@ OpenJDK 64-Bit Server VM (build <span class="highlight">11.0.7+10</span>-post-Ub
 </li></ul></code></pre>
 
 <p>You’ll see the following output:</p>
-<pre class="code-pre "><code><div class="secondary-code-label " title="Output">Output</div>javac <span class="highlight">11.0.7</span>
+<pre class="code-pre "><code><div class="secondary-code-label " title="Output">Output</div>javac <span class="highlight">11.0.8</span>
 </code></pre>
 
 <p>Next, let’s look at how to install Oracle’s official JDK and JRE.</p>
@@ -86,7 +86,7 @@ OpenJDK 64-Bit Server VM (build <span class="highlight">11.0.7+10</span>-post-Ub
 
 <p class="growable"><img src="https://raw.githubusercontent.com/dogiparthy85/Java-Ubuntu20.04/main/PGnyeYD%5B1%5D.png" alt="Installer package for Ubuntu 2.04"></p>
 
-<p>In this image, the version of the script is <code>11.0.7</code>.  In this case, you’ll need Oracle JDK 11.0.7.  You don’t need to download anything from this page; you’ll download the installation script through <code>apt</code> shortly.</p>
+<p>In this image, the version of the script is <code>11.0.8</code>.  In this case, you’ll need Oracle JDK 11.0.8.  You don’t need to download anything from this page; you’ll download the installation script through <code>apt</code> shortly.</p>
 
 <p>Then visit the <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">Downloads page</a> and locate the version that matches the one you need.</p>
 
@@ -99,7 +99,7 @@ OpenJDK 64-Bit Server VM (build <span class="highlight">11.0.7+10</span>-post-Ub
 <p>You’ll be presented with a screen asking you to accept the Oracle license agreement. Select the checkbox to accept the license agreement and press the <strong>Download</strong> button. Your download will begin. You may need to log in to your Oracle account one more time before the download starts.</p>
 
 <p>Once the file has downloaded, you’ll need to transfer it to your server.  On your local machine, upload the file to your server.  On macOS, Linux, or Windows using the <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">Windows Subsystem for Linux</a>, use the <code>scp</code> command to transfer the file to the home directory of your <code><span class="highlight">sammy</span></code> user. The following command assumes you’ve saved the Oracle JDK file to your local machine’s <code>Downloads</code> folder:</p>
-<pre class="code-pre command prefixed local-environment"><code><ul class="prefixed"><li class="line" data-prefix="$">scp Downloads/jdk-<span class="highlight">11.0.7</span>_linux-x64_bin.tar.gz <span class="highlight">sammy</span>@<span class="highlight">your_server_ip</span>:~
+<pre class="code-pre command prefixed local-environment"><code><ul class="prefixed"><li class="line" data-prefix="$">scp Downloads/jdk-<span class="highlight">11.0.8</span>_linux-x64_bin.tar.gz <span class="highlight">sammy</span>@<span class="highlight">your_server_ip</span>:~
 </li></ul></code></pre>
 <p>Once the file upload has completed, return to your server and add the third-party repository that will help you install Oracle’s Java.</p>
 
