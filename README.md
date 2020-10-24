@@ -90,7 +90,7 @@ OpenJDK 64-Bit Server VM (build <span class="highlight">11.0.8+10</span>-post-Ub
 
 <p>Then visit the <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">Downloads page</a> and locate the version that matches the one you need.</p>
 
-<p class="growable"><img src="https://raw.githubusercontent.com/dogiparthy85/Java-Ubuntu20.04/main/javapackage.png" alt="Oracle Java 11"></p>
+<p class="growable"><img src="https://raw.githubusercontent.com/dogiparthy85/Java-Ubuntu20.04/main/t50afne%5B1%5D.png" alt="Oracle Java 11"></p>
 
 <p>Click the <strong>JDK Download</strong> button and you’ll be taken to a screen that shows the versions available.  Click the <code>.tar.gz</code> package for Linux.</p>
 
