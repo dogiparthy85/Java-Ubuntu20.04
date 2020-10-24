@@ -3,4 +3,5 @@
 Install Java with Apt on Ubuntu 20.04
 
 Introduction
-Java and the JVM (Java’s virtual machine) are required for many kinds of software, including Tomcat, Jetty, Glassfish, Cassandra and Jenkins.
+<p>In this guide, you will install various versions of the Java Runtime Environment (JRE) and the Java Developer Kit (JDK) using <code>apt</code> . You’ll install OpenJDK as well as the official JDK from Oracle. You’ll then select the version you wish to use for your projects. When you’re finished, you’ll be able to use the JDK to develop software or use the Java Runtime to run software.</p>
+
