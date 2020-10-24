@@ -79,7 +79,7 @@ OpenJDK 64-Bit Server VM (build <span class="highlight">11.0.8+10</span>-post-Ub
 <a name="installing-oracle-jdk-11" data-unique="installing-oracle-jdk-11"></a><a name="installing-oracle-jdk-11" data-unique="installing-oracle-jdk-11"></a><h2 id="installing-oracle-jdk-11">Installing Oracle JDK 11</h2>
 
 <p>Oracle’s licensing agreement for Java doesn’t allow automatic installation through package managers. To install the Oracle JDK, which is the official version distributed by Oracle, you must create an Oracle account and manually download the JDK to add a new package repository for the version you’d like to use. Then you can use <code>apt</code> to install it with help from a <a href="https://launchpad.net/%7Elinuxuprising/+archive/ubuntu/java/+packages">third party installation script</a>.</p>
-
+  
 <p>The version of Oracle’s JDK you’ll need to download must match version of the installer script. To find out which version you need, visit the <a href="https://launchpad.net/%7Elinuxuprising/+archive/ubuntu/java/+packages"><code>oracle-java11-installer</code></a> page.</p>
 
 <p>Locate the package for <strong>Focal</strong>, as shown in the following figure:</p>
