@@ -86,7 +86,7 @@ OpenJDK 64-Bit Server VM (build <span class="highlight">11.0.8+10</span>-post-Ub
 
 <p class="growable"><img src="https://github.com/dogiparthy85/Java-Ubuntu20.04/blob/main/javapackage.png" alt="Installer package for Ubuntu 2.04"></p>
 
-<p>In this image, the version of the script is <code>11.0.8</code>.  In this case, you’ll need Oracle JDK 11.0.8.  You don’t need to download anything from this page; you’ll download the installation script through <code>apt</code> shortly.</p>
+<p>In this image, the version of the script is <code>11.0.9</code>.  In this case, you’ll need Oracle JDK 11.0.9.  You don’t need to download anything from this page; you’ll download the installation script through <code>apt</code> shortly.</p>
 
 <p>Then visit the <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">Downloads page</a> and locate the version that matches the one you need.</p>
 
