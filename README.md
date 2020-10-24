@@ -84,7 +84,7 @@ OpenJDK 64-Bit Server VM (build <span class="highlight">11.0.8+10</span>-post-Ub
 
 <p>Locate the package for <strong>Focal</strong>, as shown in the following figure:</p>
 
-<p class="growable"><img src="https://raw.githubusercontent.com/dogiparthy85/Java-Ubuntu20.04/main/PGnyeYD%5B1%5D.png" alt="Installer package for Ubuntu 2.04"></p>
+<p class="growable"><img src="https://github.com/dogiparthy85/Java-Ubuntu20.04/blob/main/javapackage.png" alt="Installer package for Ubuntu 2.04"></p>
 
 <p>In this image, the version of the script is <code>11.0.8</code>.  In this case, you’ll need Oracle JDK 11.0.8.  You don’t need to download anything from this page; you’ll download the installation script through <code>apt</code> shortly.</p>
 
